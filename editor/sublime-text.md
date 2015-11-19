@@ -25,3 +25,21 @@ import urllib.request,os,hashlib; h = 'eb2297e1a458f27d836c04bb0cbaf282' + 'd0e7
 * BracketHighlighter 匹配标签高亮
 * IMESupport 解决中文输入框不跟随
 
+## Mac 上命令行启动编辑器
+
+```shell
+$ echo $PATH
+/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin 
+
+$ sudo ln -s /Applications/Sublime\ Text.app/Contents/SharedSupport/bin/subl /usr/local/bin/subl
+```
+
+此时就可以通过`subl .`在sublime中打开当前文件夹
+
+
+## 自定义快捷键
+
+> Ctrl + ~ / Show Console
+> 
+> `sublime.log_commands(True)`
+
