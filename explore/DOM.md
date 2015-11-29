@@ -4,6 +4,12 @@
 
 ----------------------
 
-## [Node].nodeType
+### `[Node].nodeType`
 
-## document.defaultView
+### `document.defaultView`
+
+### `window`/`document`/`head`/`body`下的各种属性、意义、兼容性
+
+* `width`
+* `height`
+* `scroll`
