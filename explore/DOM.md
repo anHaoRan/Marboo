@@ -13,3 +13,7 @@
 * `width`
 * `height`
 * `scroll`
+
+### `document.styleSheets`
+
+操作当前页面CSS样式表，目前测试IE8兼容
