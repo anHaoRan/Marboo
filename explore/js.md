@@ -16,3 +16,5 @@
 
 * `querySelector` / `querySelectorAll`
 * `localStorage`
+
+### history 对象下的一些高级用法
