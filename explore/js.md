@@ -17,4 +17,6 @@
 * `querySelector` / `querySelectorAll`
 * `localStorage`
 
-### history 对象下的一些高级用法
+### `history` 对象下的一些高级用法
+
+### `window`对象下特殊属性的的全部内容

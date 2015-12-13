@@ -9,3 +9,4 @@
 ----------
 
 * `tabindex` 
+* `head>tag` `head`标签下地特殊标签(meta/script)等的使用
