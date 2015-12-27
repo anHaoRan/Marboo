@@ -43,3 +43,36 @@ $ sudo ln -s /Applications/Sublime\ Text.app/Contents/SharedSupport/bin/subl /us
 > 
 > `sublime.log_commands(True)`
 
+
+##  我的用户配置文件
+```json
+{
+  "caret_style": "smooth",
+  "theme": "Material-Theme.sublime-theme",
+  "color_scheme": "Packages/Material Theme/schemes/Material-Theme.tmTheme",
+  "draw_white_space": "all",
+  "font_face": "Source Code Pro",
+  "font_options":
+  [
+    "gray_antialias"
+  ],
+  "font_size": 15,
+  "highlight_line": true,
+  "ignored_packages":
+  [
+    "Markdown",
+    "Vintage"
+  ],
+  "indent_guide_options":
+  [
+    "draw_normal",
+    "draw_active"
+  ],
+  "line_padding_bottom": 5,
+  "line_padding_top": 5,
+  "margin": 2,
+  "tab_size": 2,
+  "translate_tabs_to_spaces": true
+}
+```
+
