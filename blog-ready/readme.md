@@ -7,11 +7,12 @@
 
 ### 骨架
 
-* 首页
-* 文章
-* 网站导航
-* 实验室
-* 关于我
+* Home 首页
+* Article 文章
+* Navigator 网站导航
+* Snippet 代码片段
+* Laboratory 实验室
+* About 关于我
 
 ### 简单的首页
 
