@@ -27,3 +27,5 @@
 * 服务端的ES6
 
 * sass & compass
+
+* 前端代码自动化 `gulp`

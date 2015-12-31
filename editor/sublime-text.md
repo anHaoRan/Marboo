@@ -47,9 +47,11 @@ $ sudo ln -s /Applications/Sublime\ Text.app/Contents/SharedSupport/bin/subl /us
 ##  我的用户配置文件
 ```json
 {
+  "bold_folder_labels": true,
   "caret_style": "smooth",
-  "theme": "Material-Theme.sublime-theme",
   "color_scheme": "Packages/Material Theme/schemes/Material-Theme.tmTheme",
+  "disable_tab_abbreviations": true,
+  "draw_minimap_border": true,
   "draw_white_space": "all",
   "font_face": "Source Code Pro",
   "font_options":
@@ -72,7 +74,9 @@ $ sudo ln -s /Applications/Sublime\ Text.app/Contents/SharedSupport/bin/subl /us
   "line_padding_top": 5,
   "margin": 2,
   "tab_size": 2,
+  "theme": "Material-Theme.sublime-theme",
   "translate_tabs_to_spaces": true
 }
+
 ```
 
