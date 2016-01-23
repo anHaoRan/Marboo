@@ -23,3 +23,24 @@
 
 * `onbeforeunload`
 * `onunload`
+
+### unicode字符的表示
+
+js中var s = '\u8FC7'表示‘过’
+
+css中content: '\8FC7'表示‘过’
+
+js中如何把一个中文转换成该编码：
+
+```javascript
+var chinese = '中文示例';
+
+function toUnicode(str) {
+  return str.split('').map(function (c) {
+    return '\\u' + c.charCodeAt(0).toString(16).toUpperCase();
+  }).join('');
+}
+
+toUnicode(chinese); // \u4E2D\u6587\u793A\u4F8B
+```
+
