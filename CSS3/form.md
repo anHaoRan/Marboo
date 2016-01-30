@@ -2,6 +2,8 @@
 
 * HTML5 input appearance
 
+> [http://exisweb.net/css-input-number-firefox](http://exisweb.net/css-input-number-firefox)
+
 ```css
 /*  解决在微信浏览器上出现的number输入样式的问题  */
 ::-webkit-inner-spin-button { -webkit-appearance: none;}
