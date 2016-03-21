@@ -23,3 +23,13 @@ $ npm install -g tldr
 自动在JS头部加上神注释，默认支持utf8和GBK编码的js文件。
 
 见地址[https://github.com/ottomao/bugfreejs](https://github.com/ottomao/bugfreejs)
+
+### 开始Chrome非安全模式
+
+```shell
+# Chrome < 48
+open /Applications/Google\ Chrome.app --args -disable-web-security
+
+# Chrom > 48
+open -a Google\ Chrome --args --disable-web-security --user-data-dir
+```
