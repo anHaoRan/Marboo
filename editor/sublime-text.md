@@ -49,16 +49,27 @@ $ sudo ln -s /Applications/Sublime\ Text.app/Contents/SharedSupport/bin/subl /us
 {
   "bold_folder_labels": true,
   "caret_style": "smooth",
-  "color_scheme": "Packages/Material Theme/schemes/Material-Theme.tmTheme",
+  "color_scheme": "Packages/User/SublimeLinter/itg.dark (SL).tmTheme",
   "disable_tab_abbreviations": true,
   "draw_minimap_border": true,
   "draw_white_space": "all",
-  "font_face": "Source Code Pro",
+  "font_face": "Input Mono",
+  "default_line_ending": "unix",
+  "file_exclude_patterns":
+  [
+    ".DS_Store",
+    "Desktop.ini",
+    "*.pyc",
+    "._*",
+    "Thumbs.db",
+    ".Spotlight-V100",
+    ".Trashes"
+  ],
   "font_options":
   [
     "gray_antialias"
   ],
-  "font_size": 15,
+  "font_size": 21,
   "highlight_line": true,
   "ignored_packages":
   [
@@ -77,6 +88,5 @@ $ sudo ln -s /Applications/Sublime\ Text.app/Contents/SharedSupport/bin/subl /us
   "theme": "Material-Theme.sublime-theme",
   "translate_tabs_to_spaces": true
 }
-
 ```
 

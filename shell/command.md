@@ -33,3 +33,13 @@ open /Applications/Google\ Chrome.app --args -disable-web-security
 # Chrom > 48
 open -a Google\ Chrome --args --disable-web-security --user-data-dir
 ```
+
+### homeshick
+
+[教程](https://mine260309.me/archives/1220)
+
+```shell
+git clone git://github.com/andsens/homeshick.git $HOME/.homesick/repos/homeshick
+printf '\nsource "$HOME/.homesick/repos/homeshick/homeshick.sh"' >> $HOME/.bashrc
+. ~/.bashrc
+```
