@@ -43,3 +43,9 @@ git clone git://github.com/andsens/homeshick.git $HOME/.homesick/repos/homeshick
 printf '\nsource "$HOME/.homesick/repos/homeshick/homeshick.sh"' >> $HOME/.bashrc
 . ~/.bashrc
 ```
+
+### git换远程源
+
+```shell
+git remote set-url origin https://git.oschina.net/<USERNAME>/<PROJECT_NAME>.git
+```
