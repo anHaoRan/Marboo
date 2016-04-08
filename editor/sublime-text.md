@@ -50,11 +50,10 @@ $ sudo ln -s /Applications/Sublime\ Text.app/Contents/SharedSupport/bin/subl /us
   "bold_folder_labels": true,
   "caret_style": "smooth",
   "color_scheme": "Packages/User/SublimeLinter/itg.dark (SL).tmTheme",
+  "default_line_ending": "unix",
   "disable_tab_abbreviations": true,
   "draw_minimap_border": true,
   "draw_white_space": "all",
-  "font_face": "Input Mono",
-  "default_line_ending": "unix",
   "file_exclude_patterns":
   [
     ".DS_Store",
@@ -65,11 +64,20 @@ $ sudo ln -s /Applications/Sublime\ Text.app/Contents/SharedSupport/bin/subl /us
     ".Spotlight-V100",
     ".Trashes"
   ],
+  "folder_exclude_patterns": [
+    "._recent_files",
+    ".media",
+    ".tmp",
+    ".idea",
+    ".git",
+    "node_modules"
+  ],
+  "font_face": "Input Mono",
   "font_options":
   [
     "gray_antialias"
   ],
-  "font_size": 21,
+  "font_size": 18,
   "highlight_line": true,
   "ignored_packages":
   [
