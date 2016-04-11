@@ -65,11 +65,7 @@ $ sudo ln -s /Applications/Sublime\ Text.app/Contents/SharedSupport/bin/subl /us
     ".Trashes"
   ],
   "folder_exclude_patterns": [
-    "._recent_files",
-    ".media",
-    ".tmp",
-    ".idea",
-    ".git",
+    ".*",
     "node_modules"
   ],
   "font_face": "Input Mono",
