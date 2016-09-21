@@ -49,7 +49,7 @@ $ sudo ln -s /Applications/Sublime\ Text.app/Contents/SharedSupport/bin/subl /us
 {
   "bold_folder_labels": true,
   "caret_style": "smooth",
-  "color_scheme": "Packages/User/SublimeLinter/itg.dark (SL).tmTheme",
+  "color_scheme": "Packages/Material Theme/schemes/Material-Theme.tmTheme",
   "default_line_ending": "unix",
   "disable_tab_abbreviations": true,
   "draw_minimap_border": true,
